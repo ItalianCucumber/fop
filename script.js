@@ -11,12 +11,12 @@ for (var i = 0; i < img.length; i++) {
 		modalImg.src = this.src;
 		captionText.innerHTML = this.alt;
 	}
-}
 
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
+	// Get the <span> element that closes the modal
+	var span = document.getElementsByClassName("close")[0];
 
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-	modal.style.display = "none";
+	// When the user clicks on <span> (x), close the modal
+	span.onclick = function() {
+		modal.style.display = "none";
+	}
 }
